@@ -1,3 +1,71 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color:#758194;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a:link{
+	color:#E74C3C;
+}
+a:visited{
+	color:#E74C3C;
+}
+
+a:hover{
+	color:#FFFFFF;
+}
+
+
+
+
+h1 {
+  ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left:10px;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  background-color:#E74C3C;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding-left:10px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  background-color:#323A45;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #E74C3C;
+  padding-left:10px;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 200;
+  background-color:#ffffff;
+}
+
+p {
+  width:800px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+ul {
+  background-color:#596677;
+  opacity: .5;
+}
+
+

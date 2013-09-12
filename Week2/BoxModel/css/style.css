@@ -5,13 +5,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  background-color:#A1A194;
+  background-color:#5B605F;
   font-size: 12px;
   line-height: 20px;
 }
 
 a:link{
 	color:#FF6600;
+	display:inline;
 }
 a:visited{
 	color:#FF6600;
@@ -25,6 +26,23 @@ a:active{
 	color:#FF6600;
 }
 
+#container{
+	width:800px;
+	height:auto;
+	margin: 0 auto;
+	background-color:#A1A194;
+	border-radius:8px;
+	border: 1px solid #FF6600;
+	box-shadow:4px 4px #464646;
+	padding:25px;
+}
+
+.links{
+	
+	display:inline;
+	text-align:center;
+	
+}
 
 
 
@@ -75,9 +93,18 @@ p.new{
 	color:#464646;
 }
 
+p.note{
+	width:auto;
+	color:#FF6600;
+	padding:5px 0 5px 5px;
+	border:2px double #F60;
+	background-color:#464646;
+}
+
 ul {
   background-color:#464646;
   opacity: .5;
+  list-style-type:upper-alpha;
  
 }
 

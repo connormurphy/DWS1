@@ -28,8 +28,26 @@ a:active{
 
 
 
+#header{
+	width:100%;
+	float:left;
+	clear:right;
+	background-color:#A1A194;
+	border-radius:8px;
+	border: 1px solid #FF6600;
+	box-shadow:4px 4px #464646;
+	padding:25px;
+	margin-bottom:50px;
+	text-align:center;
+	
+	
+}
 
-#col1{
+#nav {
+	display:inline-block;
+}
+
+#aside{
 	width:25%;
 	float:left;
 	clear:right;
@@ -42,7 +60,7 @@ a:active{
 	
 }
 
-#col2{
+#maincontent{
 	width:55%;
 	float:left;
 	clear:right;

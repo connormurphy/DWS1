@@ -28,7 +28,7 @@ a:active{
 
 
 
-#header{
+header{
 	width:100%;
 	float:left;
 	clear:right;
@@ -43,11 +43,11 @@ a:active{
 	
 }
 
-#nav {
+nav {
 	display:inline-block;
 }
 
-#aside{
+aside{
 	width:25%;
 	float:left;
 	clear:right;
@@ -60,7 +60,7 @@ a:active{
 	
 }
 
-#maincontent{
+maincontent{
 	width:55%;
 	float:left;
 	clear:right;
@@ -73,17 +73,8 @@ a:active{
 	
 }
 
-#col3{
-	width:25%;
-	float:left;
-	background-color:#A1A194;
-	border-radius:8px;
-	border: 1px solid #FF6600;
-	box-shadow:4px 4px #464646;
-	padding:25px;
-}
 
-#footer{
+footer{
 	width:100%;
 	float:left;
 	clear:both;
@@ -164,7 +155,7 @@ p {
   text-align: left;
 }
 
-p.new{
+article{
 	
 	color:#464646;
 }

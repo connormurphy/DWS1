@@ -5,7 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   background-color:#5B605F;
-  font-size: 12px;
+  font-size: .750em;
   line-height: 20px;
 }
 
@@ -43,7 +43,7 @@ a:active{
 }
 
 #col2{
-	width:35%;
+	width:55%;
 	float:left;
 	clear:right;
 	background-color:#A1A194;
@@ -96,7 +96,7 @@ h1 {
   letter-spacing:5px;
   color: #FFFFFA;
   padding-left:10px;
-  font-size: 32px;
+  font-size: 2.667em;
   text-align: left;
   background-color:#5B605F;
   border-radius:3px;
@@ -108,7 +108,7 @@ h2 {
   color: #FF6600;
   text-transform:uppercase;
   padding-left:10px;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 36px;
   font-weight: 400;
   border-radius:3px;
@@ -119,7 +119,7 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   color: #E74C3C;
   padding-left:10px;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 36px;
   font-weight: 200;
   border-radius:3px;

@@ -52,6 +52,25 @@ q {
 	color:#353535;
 }
 
+a.link{
+	color:#0081f2;
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.link:hover{
+	color:#ffffff;
+	background-color:#0081f2;
+	font-size:12px;
+	
+}
+
+a.link:visited{
+	color:#000;
+	font-size:12px;
+	ease: 500ms color;
+}
+
 strong {
 	padding:10px;
 	color:#259bff;
@@ -74,7 +93,6 @@ figcaption{
 
 ul {
 	list-style-type:circle;
-	
 	padding:15px 0 15px 35px;
 	font-size:12px;
 }
@@ -92,8 +110,9 @@ header{
 
 .logo {
 	float:left;
-	background-image:url('../images/logo2.png');
+	width:90px;
 	height:90px;
+	margin-top:25px;
 	
 	
 }
@@ -188,7 +207,7 @@ nav {
 
 #introbody{
 	width:960px;
-	padding:50px;
+	padding-top:30px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:28px;
 	color:#fff;
@@ -239,13 +258,14 @@ footer{
 	clear:both;
 	border: 1px solid #3db1fb;
 	border-radius:5px;
-	text-indent:25px;
+	
 	padding-top:25px;
 	height:auto;
 	margin:25px 0 25px 0;
 	padding-bottom:25px;
 	font-family: 'Open Sans', sans-serif;
-	font-size:16px;
+	font-size:14px;
+	text-align:center;
 	box-shadow: 2px 2px 2px #c6d0d7;
 	
 }

@@ -15,8 +15,9 @@ p.intro {
 	color:#fff;
 }
 
-p {
+article {
 	color:#353535;
+	line-height:18px;
 	padding:15px;
 	font-size:12px;
 }
@@ -26,6 +27,7 @@ h1{
 	color:#fff;
 	background: linear-gradient(to bottom, #0081f2 0%,#3db1fb 100%);
 	padding:15px;
+	text-shadow:#4b4b4b 2px 2px;
 }
 
 h2 {
@@ -39,6 +41,15 @@ h3 {
 	color:#fff;
 	background: linear-gradient(to bottom, #0081f2 0%,#3db1fb 100%);
 	padding:15px;
+	text-shadow:#4b4b4b 2px 2px;
+	
+}
+
+q {
+	
+	font-size:16px;
+	font-style:italic;
+	color:#353535;
 }
 
 figure {
@@ -57,8 +68,8 @@ figcaption{
 
 ul {
 	list-style-type:circle;
-	padding-left:35px;
-	padding-top:15px;
+	
+	padding:15px 0 15px 35px;
 	font-size:12px;
 }
 
@@ -81,7 +92,7 @@ header{
 	
 }
 
-.navbar {
+nav {
   padding-top: 57px;
   float:right;
 }
@@ -109,6 +120,41 @@ header{
 .navlink:hover {
   color: #6e6e6e;
 }
+
+#socials {
+    list-style: none;
+}
+    #socials li {
+        display: block;
+        float: left;
+        margin: 0 9px 0 0;
+    }
+    #socials a {
+        display: block;
+        width: 33px;
+        height: 33px;
+        text-indent: -9999px;
+	
+    }
+	
+.facebook {
+   
+	background-image:url('../images/Facebook.png');
+	opacity:.5;
+}
+
+.facebook:hover {
+        opacity:1;
+    }
+
+.twitter {
+    background-image:url('../images/Tumblr.png');
+	opacity:.5;
+}
+
+ .twitter:hover {
+        opacity:1;
+    }
 
 
 #picsection {
@@ -150,7 +196,10 @@ header{
 	padding-top:30px;
 	width:960px;
 	margin:0 auto;
+	
 }
+
+
 
 aside{
 	width:320px;
@@ -158,8 +207,8 @@ aside{
 	border: 1px solid #3db1fb;
 	border-radius:5px;
 	margin-right:10px;
-	height:800px;
-	
+	height:auto;
+	padding-bottom:25px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
 	
@@ -168,14 +217,96 @@ aside{
 #rightcol{
 	width:620px;
 	float:left;
+	clear:right;
+	border: 1px solid #3db1fb;
+	border-radius:5px;
+	height:auto;
+	padding-bottom:25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	
+}
+
+footer{
+	width:960px;
+	float:left;
+	clear:both;
 	border: 1px solid #3db1fb;
 	border-radius:5px;
 	text-indent:25px;
 	padding-top:25px;
 	height:auto;
+	margin:25px 0 25px 0;
 	padding-bottom:25px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
+	
 }
+
+
+.datagrid table { 
+  border-collapse: collapse; text-align: left; width: 100%;
+}
+ 
+
+.datagrid {
+  font: normal 12px/150% Arial, Helvetica, sans-serif; 
+  background: #fff; 
+  overflow: hidden; 
+  border: 1px solid #3db1fb; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
+  margin:0 0 15px 15px;
+}
+
+.datagrid table td, .datagrid table th { 
+  padding: 3px 10px; 
+}
+
+.datagrid table td:hover{
+	background-color:#ddeffa;
+}
+
+
+.datagrid table thead th {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0081f2), color-stop(1, #3db1fb) );
+  background:-moz-linear-gradient( center top, #0081f2 5%, #3db1fb 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#23b2fc', endColorstr='#d85a06');
+  background-color:#323A45; 
+  color:#FFFFFF; 
+  font-size: 15px; 
+  font-weight: bold; 
+  text-transform:uppercase;
+  border-left: 1px solid #3db1fb0; } 
+
+.datagrid table thead th:first-child { 
+  border: none; 
+}
+
+.datagrid table tbody td { 
+  color: #00557F; 
+  border-left: 1px solid #23b2fc;
+  font-size: 12px;
+  font-weight: normal; 
+}
+
+.datagrid table tbody .alt td { 
+  background: #23b2fc; 
+  color: #00557F; 
+}
+
+.datagrid table tbody td:first-child { 
+  border-left: none; 
+}
+
+.datagrid table tbody tr:last-child td { 
+  border-bottom: none; 
+}
+
+
+
+
+
+
+
+
 	
 	

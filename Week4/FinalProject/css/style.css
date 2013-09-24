@@ -112,8 +112,6 @@ nav {
   padding-bottom: 2px;
   border: 1px none black;
   background-color: white;
-  -webkit-transition: color 500ms ease;
-  -o-transition: color 500ms ease;
   transition: color 500ms ease;
   direction: ltr;
   font-family: 'Open Sans', sans-serif;
@@ -262,7 +260,8 @@ footer{
   font: normal 12px/150% Arial, Helvetica, sans-serif; 
   background: #fff; 
   overflow: hidden; 
-  border: 1px solid #3db1fb; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
+  border: 1px solid #3db1fb;
+  border-radius: 3px; 
   margin:0 0 15px 15px;
 }
 
@@ -278,13 +277,12 @@ footer{
 .datagrid table thead th {
   background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0081f2), color-stop(1, #3db1fb) );
   background:-moz-linear-gradient( center top, #0081f2 5%, #3db1fb 100% );
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#23b2fc', endColorstr='#d85a06');
   background-color:#323A45; 
   color:#FFFFFF; 
   font-size: 15px; 
   font-weight: bold; 
   text-transform:uppercase;
-  border-left: 1px solid #3db1fb0; } 
+  border: 1px solid #3db1fb; } 
 
 .datagrid table thead th:first-child { 
   border: none; 
@@ -311,6 +309,87 @@ footer{
 }
 
 
+input, textarea {
+	margin:0 0 10px 15px;
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #0081f2;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #0081f2; 
+	color: #FFF;
+	border-radius: 3px;
+	
+}
+
+#styled-select select {
+   background:#fff;
+   border: 1px solid #E5E5E5;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+   width: 220px;
+   padding: 5px;
+   margin:0 0 10px 15px;
+   font-size: 12px;
+   line-height: 1;
+   color:#999999;
+   border-radius: 0;
+   height: 34px;
+   
+   }
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+    color:#0081f2;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+	margin-bottom:10px;
+	
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../images/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+	margin-bottom:15px;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(../images/check_radio_sheet.png) -57px top no-repeat;
+}
 
 
 

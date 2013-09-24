@@ -52,6 +52,12 @@ q {
 	color:#353535;
 }
 
+strong {
+	padding:10px;
+	color:#259bff;
+	
+}
+
 figure {
 	display:inline-block;
 }
@@ -178,7 +184,7 @@ nav {
 
 #intro {
 	width:100%;
-	background-color:#3db1fb;
+	background-color:rgb(61,177,251);
 	height:300px;
 }
 
@@ -211,6 +217,7 @@ aside{
 	padding-bottom:25px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
+	box-shadow: 2px 2px 2px #c6d0d7;
 	
 }
 
@@ -224,6 +231,7 @@ aside{
 	padding-bottom:25px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
+	box-shadow: 2px 2px 2px #c6d0d7;
 	
 }
 
@@ -240,6 +248,7 @@ footer{
 	padding-bottom:25px;
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
+	box-shadow: 2px 2px 2px #c6d0d7;
 	
 }
 
